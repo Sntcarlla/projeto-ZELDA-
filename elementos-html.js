@@ -6,11 +6,26 @@ const botaoTesouros = document.getElementById('tesouros');
 
 const divResultados = document.querySelector('.resultados');
 
+const divFiltro = document.querySelector('.filtrar');
+
+const divCarregando = document.querySelector('.carregando');
+
+const totalItensBuscados = document.getElementById('total-itens-buscados');
+
+const input = document.getElementById('input');
+
+const totalElementos = document.getElementById('total-itens');
+
 export {
   botaoCriaturas,
   botaoMonstros,
   botaoMateriais,
   botaoEquipamentos,
   botaoTesouros,
-  divResultados
+  divResultados,
+  divFiltro,
+  divCarregando,
+  totalItensBuscados,
+  input,
+  totalElementos
 }
